@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars and fill in your own values.
+# terraform.tfvars is git-ignored — never commit real values.
+location             = "centralus"
+environment          = "dev"
+project              = "iac"
+alert_email          = "ops@example.com"
+aks_admin_group_name = "aks-admins"
